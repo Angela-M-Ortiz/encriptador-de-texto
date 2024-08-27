@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css"> 
+</head>
+   
+<body>
+    <!--Encabezado-->
+    <header class="header">
+        <a href="#" rel="">
+            <img class="header-imagen" src="./assets/Logo.png" alt="Logo de Alura">
+        </a>
+    </header>
+    
+    <!--Sección principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="aviso-encriptador">
+                <img class="imagen-aviso" src="./assets/Imagen-aviso.svg" alt="Signo de exclamación aviso">
+                <p class="texto-aviso"> Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="encriptador-contenedor">
+                <button class="boton-encriptar" type="submit"> Encriptar</button>
+                <button class="boton-desencriptar" type="submit"> Desencriptar</button>
+            </div>
+        </section>
+       
+        <section class="cuadro"> 
+            <div class="cuadro-contenedor">
+                <img class="muñeco" src="./assets/Muñeco.png" alt="Muñeco">
+                <p class="texto-grande">Ningún mensaje fue encontrado</p>
+                <p class="texto-pequeño">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            </div>
+            <textarea class="mensaje-usuario" type="mensaje" readonly></textarea>
+            <button class="boton-copiar" type="submit">Copiar</button>
+
+        </section>
+    </main>
+
+    <!--Pie de página-->
+
+    <footer class="footer">
+        <p class="pie-de-pagina"> Desarrollado por Angela Marcela Ortiz para el Challenge de ONE </p>
+       
+        <a href="https://www.linkedin.com/in/angela-marcela-ortiz-rocha/" rel="">
+         <img class="linked" src="./assets/linkedin.png" alt="logo linkedin">
+        </a>
+        
+        <a href="https://github.com/Angela-M-Ortiz" rel="">
+            <img class="github" src="./assets/github.png" alt="logo github">
+        </a>    
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
